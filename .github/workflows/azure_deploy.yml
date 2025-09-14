@@ -67,6 +67,6 @@ jobs:
               id: deploy-to-webapp
               uses: azure/webapps-deploy@v2
               with:
-                  app-name: "bloggdgtech" # tên Web App trên Azure
+                  app-name: "todoappsupport" # tên Web App trên Azure
                   slot-name: "Production"
                   package: ./ServerApp
